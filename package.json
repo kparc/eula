@@ -1,0 +1,37 @@
+{
+  "name": "@kparc/eula",
+  "version": "1.0.0",
+  "description": "shakti end-user license agreement",
+  "main": "shakti.eula.crc",
+  "scripts": {
+    "build": "./eula.sh",
+    "preinstall": "npm run build --silent"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "cpu": [
+    "x64",
+    "arm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kparc/eula.git"
+  },
+  "keywords": [
+    "shakti",
+    "shaktidb",
+    "eula"
+  ],
+  "author": "kparc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kparc/eula/issues"
+  },
+  "homepage": "https://github.com/kparc/eula#readme",
+  "files": [
+    "eula.sh",
+    "eula.js"
+  ]
+}
