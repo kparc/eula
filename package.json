@@ -2,7 +2,7 @@
   "name": "@kparc/eula",
   "version": "1.0.0",
   "description": "shakti end-user license agreement",
-  "main": "shakti.eula.crc",
+  "main": "eula.sh",
   "scripts": {
     "build": "./eula.sh",
     "preinstall": "npm run build --silent"
